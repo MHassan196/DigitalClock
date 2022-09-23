@@ -12,7 +12,7 @@ body{
 }
 @font-face {
     font-family: Orbitron-VariableFont_wght;
-    src: url("/font/Orbitron/Orbitron-VariableFont_wght.ttf");
+    src: url("font/Orbitron/Orbitron-VariableFont_wght.ttf");
 }
 .container{
     height: 70vh;

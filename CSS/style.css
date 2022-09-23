@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(44,185,181);
+  background: radial-gradient(circle, rgba(44,185,181,1) 0%, rgba(11,48,47,1) 0%, rgba(0,0,0,1) 100%);
+  font-family: Orbitron-VariableFont_wght;
+  color: white;
+  text-shadow: 0 0 10px #0FFF50;
+  letter-spacing: 2px;
+}
+@font-face {
+    font-family: Orbitron-VariableFont_wght;
+    src: url("/font/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+.container{
+    height: 70vh;
+    width: 70vw;
+    background: #ffffff0f;
+  box-shadow: 0 0 50px black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#time{
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+}
+#day{
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#date{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+}
